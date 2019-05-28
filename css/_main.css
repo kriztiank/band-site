@@ -1,0 +1,237 @@
+@import 'nav.css';
+@import 'variables.css';
+/*********************************************
+Base Styles
+**********************************************/
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif;
+  background: var(--bg-color-white);
+  color: var(--darkgrey-color);
+}
+
+* img {
+  display: block;
+  line-height: 0;
+}
+
+/*********************************************
+index.html - Hero
+**********************************************/
+.hero {
+  max-width: 1200px;
+  margin: auto;
+  padding: 1.25rem;
+}
+
+.hero img {
+  width: 100%;
+}
+
+/*********************************************
+index.html - Heading1
+**********************************************/
+h1 {
+  margin: 0;
+  padding: 3rem;
+  color: var(--red-color);
+  font-size: 40px;
+  font-weight: 300;
+  text-align: center;
+}
+
+/*********************************************
+index.html - 4-Up Features
+**********************************************/
+.features1 {
+  padding: 1.25rem;
+}
+
+.features1-inner-wrap {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.features1-columns {
+  display: grid;
+  grid-template-columns: repeat(1fr);
+  grid-gap: 1px;
+}
+
+.features1-group img {
+  width: 100%;
+}
+
+h3 {
+  color: var(--red-color);
+}
+
+h4 {
+  color: var(--red-color);
+  text-align: right;
+}
+
+/*********************************************
+index.html - Skull Spacer
+**********************************************/
+.spacer1 {
+  margin: 0;
+  padding: 2rem;
+}
+
+.spacer1-inner-wrap {
+  display: flex;
+  justify-content: center;
+  max-width: 1200px;
+  margin: auto;
+}
+
+/*********************************************
+index.html - 2-up Features
+**********************************************/
+.features2 {
+  padding: 1.25rem;
+}
+
+.features2-inner-wrap {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.features2-columns {
+  display: grid;
+  grid-template-columns: repeat(1fr);
+  grid-gap: 40px;
+}
+
+.features2-group img {
+  width: 100%;
+}
+
+/*********************************************
+about.html - 2-up Features
+**********************************************/
+.grid-areas-testimonials h3 {
+  margin: 0;
+  padding: 0;
+}
+
+.grid-areas-testimonials {
+  max-width: 1200px;
+  margin: auto;
+  padding: 1.25rem;
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: 100%;
+  grid-template-areas:
+    'group1'
+    'group2'
+    'group3'
+    'group4';
+}
+
+.grid-areas-testimonials img {
+  width: 100%;
+  display: block;
+}
+
+.group1 {
+  grid-area: group1;
+}
+
+.group2 {
+  grid-area: group2;
+}
+.group3 {
+  grid-area: group3;
+}
+.group4 {
+  grid-area: group4;
+}
+
+/* .sticky-footer {
+  min-height: calc(100vh - 120px);
+} */
+
+/*********************************************
+Footer
+**********************************************/
+.footer {
+  background: var(--darkgrey-color);
+  /* padding y / padding x */
+  padding: 15px 0;
+}
+
+.footer-columns {
+  max-width: 600px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(1fr);
+  text-align: center;
+}
+
+.footer-image {
+  width: 100%;
+  display: none;
+}
+
+/*********************************************
+Form
+**********************************************/
+input {
+  background: var(--bg-formfield-color);
+  font: 300 1rem var(--primary-font);
+
+  /* field border */
+  border: 1px solid var(--border-grey);
+
+  /* fields outher size */
+  width: 80%;
+
+  /* field inner size */
+  padding: 0.6rem;
+
+  /* margin y */
+  margin-bottom: 20px;
+}
+
+input:focus {
+  /* highligt */
+  background: var(--red-color-opacity);
+  outline-color: var(--border-grey);
+  border: 1px solid var(--border-grey);
+}
+
+/*********************************************
+Buttons
+**********************************************/
+.button,
+.btn-green,
+.btn-red {
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+.btn-size {
+  /* padding y / padding x */
+  padding: 0.6rem 2.5rem;
+  font: 300 1rem var(--primary-font);
+}
+
+.btn-green {
+  background: var(--green-color);
+  outline-color: var(--border-grey);
+  border: 1px solid var(--border-grey);
+  color: white;
+}
+
+.btn-red {
+  background: var(--red-color);
+  outline-color: var(--border-grey);
+  border: 1px solid var(--border-grey);
+  color: white;
+  margin-right: 0.5rem;
+}

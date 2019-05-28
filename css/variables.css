@@ -1,0 +1,22 @@
+:root {
+  /* nav / footer / txt */
+  --darkgrey-color: #333;
+  /* formfield */
+  --bg-formfield-color: #444;
+  /* nav items  */
+  --lightgrey-color: #ccc;
+  /* h1 h3 nav items:hover* read more btn red */
+  --red-color: #a50000;
+  /* btn green */
+  --green-color: #297719;
+  /* border */
+  --border-grey: #888;
+  /* background */
+  --bg-color-white: #eee;
+
+  /* RGBA */
+  --red-color-opacity: rgba(165, 0, 0, 0.2);
+
+  /* TYPOGRAPHY */
+  --primary-font: 'Open Sans', sans-serif;
+}

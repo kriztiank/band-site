@@ -1,0 +1,44 @@
+/*********************************************
+Navigation
+**********************************************/
+.nav {
+  background: var(--darkgrey-color);
+  /* padding y / padding x */
+  padding: 0.5rem 0;
+}
+
+.nav-inner-wrap {
+  display: flex;
+  /* Stacks logo + menu items on small screens */
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  max-width: 300px;
+  margin: auto;
+  padding: 1.5rem;
+}
+
+.site-title {
+  padding: 1.5rem;
+}
+
+.menu {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  /* space between menu items */
+  margin-left: 1rem;
+}
+
+a {
+  color: var(--lightgrey-color);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--red-color);
+}

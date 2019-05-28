@@ -1,0 +1,25 @@
+/* Small devices (landscape phones, 600px and up) */
+
+h1 {
+  font-size: 50px;
+}
+
+.features1-columns {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px;
+}
+
+.features2-columns {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px;
+}
+
+.grid-areas-testimonials {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-areas:
+    'group2 group3'
+    'group1 group4';
+}

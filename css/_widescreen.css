@@ -1,0 +1,65 @@
+
+/* Large devices (desktops, 1240px and up) */
+
+/*********************************************
+Navigation
+**********************************************/
+.nav {
+  background: var(--darkgrey-color);
+  /* padding y / padding x */
+  padding: 0.5rem 0;
+}
+
+.nav-inner-wrap {
+  display: flex;
+  /* flex-wrap: wrap; (Stacks logo+items on small screens)*/
+  justify-content: space-between;
+  /* align-items: center; */
+  max-width: 1200px;
+  margin: auto;
+  padding: 0;
+  /* margin: 0 20px; */
+}
+
+.site-title {
+  padding: 0;
+}
+
+/*********************************************
+Heading1
+**********************************************/
+h1 {
+  font-size: 70px;
+}
+
+/*********************************************
+index.html - 4-Up Features
+**********************************************/
+.features1-columns {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 20px;
+}
+
+/*********************************************
+Footer
+**********************************************/
+.footer {
+  background: var(--darkgrey-color);
+  /* padding y / padding x */
+  padding: 15px 0;
+}
+
+.footer-columns {
+  max-width: 1200px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 1px;
+  text-align: left;
+}
+
+.footer-image {
+  width: 100%;
+  display: block;
+}

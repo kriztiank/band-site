@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>BND</title>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400" rel="stylesheet">
+
+  <!-- xs - Extra small devices (portrait phones, less than 600px) -->
+  <link rel="stylesheet" href="css/_main.css" />
+  <!-- sm - Small devices (landscape phones, 600px and up) -->
+  <link rel="stylesheet" media="screen and (min-width: 600px)" href="css/_smallscreen.css">
+
+  <!-- xl - Large devices (desktops, 1240px and up) -->
+  <link rel="stylesheet" media="screen and (min-width: 1240px)" href="css/_widescreen.css">
+
+</head>
+
+<body>
+
+  <!-- nav 100%-->
+  <header class="nav">
+    <!-- "nav-inner" = Inner Wrapper, use for grouping items & move with flex -->
+    <div class="nav-inner-wrap">
+      <header class="site-title"><a href="index.html"><img src="img/logo_sm_nav.png" alt="BND Logo" /></a></header>
+      <nav class="main-nav">
+        <ul class="menu">
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="about.html">ABOUT</a></li>
+          <li><a href="#">SHOWS</a></li>
+          <li><a href="#">JOIN</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- heading1-->
+  <section class="heading1">
+    <div class="heading1-inner">
+      <h1>MEET THE BAND</h1>
+    </div>
+  </section>
+
+  <!-- Hero-->
+
+  <section class="hero">
+
+    <picture>
+      <source media="(max-width: 600px)" srcset="img/header_xs.jpg">
+      <img class="hero-inner-wrap hero-image" src="img/header_lg.jpg" alt="BND live" />
+    </picture>
+
+  </section>
+
+  <!-- heading2 CHANGE TO H2 -->
+
+  <section class="heading1">
+    <div class="heading1-inner">
+      <h1>TESTIMONIALS</h1>
+    </div>
+  </section>
+
+  <!-- 2-Up Features-->
+
+  <section class="grid-areas-testimonials">
+
+    <div class="group1">
+      <img src="img/about/lou.jpg" alt="Lou Reed" />
+    </div>
+
+    <div class="group2">
+      <h3>About Lou Reed</h3>
+      <p>
+        Following the release of a solo record in 1997, John took a sabbatical from his music career into
+        othermedia, most memorably his own Rotten TV show for VH1 and as the most outrageous contestant ever on I'm
+        a Celebrity..
+      </p>
+      <p>He then fronted the Megabugsseries and one-off nature documentaries and even turned his hand to a series of
+        much loved TV advertisements for Country Life butter.
+      </p>
+      <p>He also found time for making innovative new dance records with the likes of Afrika Baambaata and
+        Leftfield.</p>
+      </br>
+    </div>
+
+    <div class="group3">
+      <img src="img/about/pete.jpg" alt="Pete Townshend" />
+    </div>
+
+    <div class="group4">
+      <h3>About Pete Townshend</h3>
+      <p>
+        Following the release of a solo record in 1997, John took a sabbatical from his music career into other
+        media, most memorably his own Rotten TV show for VH1 and as the most outrageous contestant ever on I'm a
+        Celebrity..
+      </p>
+      <p>He then fronted the Megabugsseries and one-off nature documentaries and even turned his hand to a series of
+        much loved TV advertisements for Country Life butter.
+      </p>
+      <p>He also found time for making innovative new dance records with the likes of Afrika Baambaata and
+        Leftfield.</p>
+    </div>
+  </section>
+
+  <!-- Footer-->
+
+  <footer class="footer">
+
+    <section class="footer-inner-wrap">
+
+      <section class="footer-columns">
+
+        <article>
+          <form>
+
+            <div>
+              <input id="name_id" placeholder="TYPE USER NAME">
+            </div>
+
+            <div>
+              <input id="pass_id" placeholder="TYPE PASSWORD">
+            </div>
+
+            <div class="button">
+              <button class="btn-size btn-red" type="button" onclick="validate()">CANCEL</button>
+            </div>
+
+            <div class="button">
+              <button class="btn-size btn-green" type="button" onclick="validate()">SEND</button>
+            </div>
+
+          </form>
+        </article>
+
+        <article>
+          <img class="footer-image" src="img/logo_lg_footer.png" alt="BND" />
+        </article>
+
+      </section>
+    </section>
+
+  </footer>
+
+  <script src="js/script.js"></script>
+
+</body>
+
+</html>
