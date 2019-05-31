@@ -1,3 +1,4 @@
 # band-site
-Web development school project
+Web development school project.
+
 https://band-site.netlify.com/
