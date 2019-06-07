@@ -1,4 +1,4 @@
 # band-site
-Web development school project.
+School project PSD to HTML.
 
 https://band-site.netlify.com/
